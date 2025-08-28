@@ -2,9 +2,9 @@
 ## 类视图：
 | 类名 | 中文 | 是否基类 | 
 |-----|----------|-----|
-| Controller | 程序控制器 |-|
+| Controler | 程序控制器 |-|
 | Page | 页面 | + |
-| PageManager | 页面管理器 |-|
+| Page_Manager | 页面管理器 |-|
 | Client | 客户 |-|
 | Goods | 商品 |-|
 | Money | 余额 |-|
