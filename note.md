@@ -19,3 +19,8 @@ MySQL
 ## 网络协议
 TCP
 - windows socket
+## 商品属性
+- 编号
+- 名称
+- 描述
+- 单价
