@@ -8,17 +8,24 @@
 | Client | 客户 | - |
 | Goods | 商品 | - |
 | Money | 余额 | - |
-| Atlas | 图集 | - |
 | Cart | 购物车 | - |
 ## IDE
-VS
+Qt
 ## UI
-EasyX
+QtDesigner
 ## 数据库
-MySQL
+SQLite
 ## 网络协议
-TCP
-- windows socket
+TCP, QJson
+
+path,
+
+header,
+status,
+body
+
+class Client;
+class Server;
 ## 商品属性
 - 编号
 - 名称
