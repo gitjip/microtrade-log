@@ -101,7 +101,7 @@ graph TB
 主要表结构：
 - 用户表（user）：
   - id
-  - account
+  - username
   - password
   - role
 - 商品表（goods）：
