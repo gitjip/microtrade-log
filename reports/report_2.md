@@ -103,7 +103,7 @@ graph TB
   - id
   - username
   - password
-  - role
+  <!-- - role -->
 - 商品表（goods）：
   - id
   - name
@@ -114,11 +114,10 @@ graph TB
 - 订单表（order）：
   - id
   - user_id
-  - total_amount
-  - total_price
+  - cost
   - status
   - create_time
-  - order_item
+  - list<order_item_id>
 - 订单项表（order_item）：
   - id
   - order_id
@@ -128,8 +127,13 @@ graph TB
 - 购物车表（cart）：
   - id
   - user_id
+  - list<cart_item_id>
+- 购物车项表（cart_item）
+  - id
+  - cart_id
   - goods_id
   - quantity
+- 通知（Notification）
 
 ### （5）通信协议设计
 - 采用TCP协议
